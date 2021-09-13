@@ -1,5 +1,20 @@
 package main
 
+import (
+	"fmt"
+
+	"github.com/KeaghanKennedy/go-getting-started/models"
+)
+
 func main() {
-	runPlayground()
+	u := models.User{
+		ID:        2,
+		FirstName: "Tricia",
+		LastName:  "McMillan",
+	}
+
+	fmt.Println(u)
+
+	// notes.PrimitiveDataTypes()
+	// notes.Collections()
 }
