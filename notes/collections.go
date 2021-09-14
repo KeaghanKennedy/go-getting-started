@@ -69,6 +69,7 @@ func Collections() {
 	// map[bar:21]
 
 	// 5.5 WORKING WITH STRUCTS
+
 	type user struct {
 		id        int
 		firstName string

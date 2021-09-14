@@ -3,6 +3,7 @@ package notes
 import "fmt"
 
 // 4.5 IOTA/CONSTANT DECLARATION
+
 // Constant declarations work the same way that import blocks do.
 // All constant rules regarding initialization/compiletime apply.
 const (
@@ -20,6 +21,7 @@ const (
 
 func PrimitiveDataTypes() {
 	// 4.2 PRIMITIVE TYPES
+
 	// Super explicit. Declaration and initialization on separate lines.
 	var i int
 	i = 42
@@ -55,6 +57,7 @@ func PrimitiveDataTypes() {
 	// 3 4
 
 	// 4.3 POINTERS
+
 	var lastName *string
 	fmt.Println(lastName)
 	fmt.Println()
@@ -102,6 +105,7 @@ func PrimitiveDataTypes() {
 	fmt.Println()
 
 	// 4.5 IOTA/CONSTANT BLOCKS
+
 	fmt.Println(first, second, third)
 	fmt.Println(fourth, fifth, sixth)
 
